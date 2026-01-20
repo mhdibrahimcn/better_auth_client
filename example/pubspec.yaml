@@ -1,5 +1,5 @@
-name: better_auth_client_example
-description: Demonstrates how to use the better_auth_client package.
+name: better_auth_flutter_client_example
+description: Demonstrates how to use the better_auth_flutter_client package.
 publish_to: none
 
 environment:
@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  better_auth_client:
+  better_auth_flutter_client:
     path: ../
 
 flutter:

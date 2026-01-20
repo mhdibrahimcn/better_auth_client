@@ -1,5 +1,5 @@
+import 'package:better_auth_flutter_client/better_auth_flutter_client.dart';
 import 'package:flutter/material.dart';
-import 'package:better_auth_client/better_auth_client.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         useMaterial3: true,
       ),
-      home: AuthWrapper(),
+      home: const AuthWrapper(),
     );
   }
 }
@@ -35,7 +35,8 @@ class _AuthWrapperState extends State<AuthWrapper> {
   void initState() {
     super.initState();
     authClient = BetterAuthClient(
-      baseUrl: String.fromEnvironment('BETTER_AUTH_URL', defaultValue: 'http://localhost:3000'),
+      baseUrl: const String.fromEnvironment('BETTER_AUTH_URL',
+          defaultValue: 'http://localhost:3000'),
     );
   }
 
@@ -210,7 +211,8 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Welcome, ${widget.session.user.name ?? widget.session.user.email}'),
+        title: Text(
+            'Welcome, ${widget.session.user.name ?? widget.session.user.email}'),
         actions: [
           IconButton(
             icon: const Icon(Icons.logout),
@@ -258,7 +260,8 @@ class _HomePageState extends State<HomePage> {
     await widget.authClient.signOut();
     if (mounted) {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => LoginPage(authClient: widget.authClient)),
+        MaterialPageRoute(
+            builder: (_) => LoginPage(authClient: widget.authClient)),
       );
     }
   }

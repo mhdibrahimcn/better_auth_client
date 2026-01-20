@@ -1,6 +1,6 @@
 # Better Auth Flutter Client
 
-[![Pub Version](https://img.shields.io/pub/v/better_auth_client)](https://pub.dev/packages/better_auth_client)
+[![Pub Version](https://img.shields.io/pub/v/better_auth_flutter_client)](https://pub.dev/packages/better_auth_flutter_client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Flutter Platform](https://img.shields.io/badge/Platform-Flutter-blue.svg)](https://flutter.dev)
 

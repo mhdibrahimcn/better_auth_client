@@ -8,7 +8,7 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "better_auth_client",
+      "name": "better_auth_flutter_client",
       "rootUri": "../../",
       "packageUri": "lib/",
       "languageVersion": "3.0"
@@ -302,7 +302,7 @@
       "languageVersion": "3.3"
     },
     {
-      "name": "better_auth_client_example",
+      "name": "better_auth_flutter_client_example",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.0"

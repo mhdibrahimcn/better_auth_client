@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:better_auth_client/better_auth_client.dart';
+import 'package:better_auth_flutter_client/better_auth_flutter_client.dart';
 
 void main() {
   group('User Model Tests', () {
