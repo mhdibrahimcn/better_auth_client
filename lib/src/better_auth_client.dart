@@ -50,7 +50,7 @@ import 'utils/constants.dart';
 ///
 /// See also:
 /// - [Better Auth Documentation](https://www.better-auth.com/docs)
-/// - [GitHub Repository](https://github.com/your-org/better_auth_client)
+/// - [GitHub Repository](https://github.com/mhdibrahimcn/better_auth_client)
 class BetterAuthClient {
   /// The HTTP client used for API requests.
   late final Dio _dio;

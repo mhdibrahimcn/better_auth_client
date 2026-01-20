@@ -1,10 +1,10 @@
 name: better_auth_client
 description: A Flutter client for Better Auth, enabling seamless authentication with Next.js backends.
 version: 1.0.0
-repository: https://github.com/your-org/better_auth_client
-issue_tracker: https://github.com/your-org/better_auth_client/issues
-homepage: https://github.com/your-org/better_auth_client
-documentation: https://github.com/your-org/better_auth_client#readme
+repository: https://github.com/mhdibrahimcn/better_auth_client
+issue_tracker: https://github.com/mhdibrahimcn/better_auth_client/issues
+homepage: https://github.com/mhdibrahimcn/better_auth_client
+documentation: https://github.com/mhdibrahimcn/better_auth_client#readme
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
