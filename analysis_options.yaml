@@ -1,0 +1,13 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - prefer_relative_imports
+    - avoid_relative_lib_imports
+    - prefer_single_quotes
+    - always_declare_return_types
+    - use_super_parameters
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_print
+    - unused_import
